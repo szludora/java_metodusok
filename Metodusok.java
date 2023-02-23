@@ -4,6 +4,7 @@ package com.mycompany.metodusok;
 public class Metodusok {
 
     public static void main(String[] args) {
+        
     }
     
     private static int elso10SzamOsszege() {
@@ -14,13 +15,11 @@ public class Metodusok {
         return osszeg;
     }
     
-    private static void kiiras() {
-        int osszeg = elso10SzamOsszege();
-        System.out.println("Az első 10 szám összege: " + osszeg);
-    }
-    
-    
-    private static void osszead(int a, int b) {
-            System.out.printf("%d + %d = %d\n", a, b, a+b);
+    private static int osszead(int a, int b) {
+            return a+b;
 }
+    
+    private static void kiir(String szoveg) {
+        System.out.println(szoveg);
+    }
 }
