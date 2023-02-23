@@ -4,7 +4,9 @@ package com.mycompany.metodusok;
 public class Metodusok {
 
     public static void main(String[] args) {
-        
+        kiir("asd");
+        int eredmeny = elso10SzamOsszege();
+        kiir("adwdawdaw");
     }
     
     private static int elso10SzamOsszege() {
