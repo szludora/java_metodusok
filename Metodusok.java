@@ -4,9 +4,13 @@ package com.mycompany.metodusok;
 public class Metodusok {
 
     public static void main(String[] args) {
-        kiir("asd");
-        int eredmeny = elso10SzamOsszege();
-        kiir("adwdawdaw");
+        int osszeg = elso10SzamOsszege();
+        String kimenet = "Az első 10 szám összege: " + osszeg + "\n";
+        kiir(kimenet);
+        
+        int szam1 = 7, szam2 = 4;
+        osszeg = osszead(szam1, szam2);
+        kiir("%d + %d = %d\n".formatted(szam1, szam2, osszeg));
     }
     
     private static int elso10SzamOsszege() {
@@ -22,6 +26,6 @@ public class Metodusok {
 }
     
     private static void kiir(String szoveg) {
-        System.out.println(szoveg);
+        System.out.printf(szoveg);
     }
 }
